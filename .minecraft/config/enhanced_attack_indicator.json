@@ -1,0 +1,8 @@
+{
+  "weaponCoolDownImportance": "MIDDLE",
+  "showBlockBreaking": false,
+  "showRangeWeaponDraw": true,
+  "showItemCooldowns": true,
+  "disablePickaxesAndShovels": false,
+  "disableAxes": false
+}

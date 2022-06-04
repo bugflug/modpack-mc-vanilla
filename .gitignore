@@ -1,0 +1,35 @@
+/*
+!.gitignore
+!README.md
+
+# minecraft
+!.minecraft
+.minecraft/*
+!crafting_table.png
+
+# configs
+!.minecraft/config
+.minecraft/config/*
+
+!.minecraft/config/authme.json5
+!.minecraft/config/appleskin.json5
+!.minecraft/config/betterpingdisplay.json
+!.minecraft/config/capes.json5
+!.minecraft/config/colormeoutlines.json
+!.minecraft/config/customstars.json
+!.minecraft/config/dynamicfps.toml
+!.minecraft/config/effective.properties
+!.minecraft/config/enhanced_attack_indicator.json
+!.minecraft/config/fabulous_clouds.json
+!.minecraft/config/fallingleaves.json
+!.minecraft/config/inspecio.json
+!.minecraft/config/itemmodelfix.json
+!.minecraft/config/lambdabettergrass.toml
+!.minecraft/config/okzoomer.json5
+!.minecraft/config/skinswapper.json
+!.minecraft/config/xaerominimap.txt
+!.minecraft/config/xaeroworldmap.txt
+
+# mods
+!.minecraft/mods
+.minecraft/mods/*.disabled
