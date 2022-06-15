@@ -44,9 +44,16 @@
     "minecraft:spruce_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": true
+    },
+    "minecraft:mangrove_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
     }
   },
   "leafSpawners": [],
   "fallSpawnRateFactor": 1.8,
-  "winterSpawnRateFactor": 0.1
+  "winterSpawnRateFactor": 0.1,
+  "startingSpawnRadius": 0,
+  "decaySpawnRateFactor": 2.6,
+  "maxDecayLeaves": 9
 }

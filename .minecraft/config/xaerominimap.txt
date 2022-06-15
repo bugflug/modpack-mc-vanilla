@@ -33,13 +33,14 @@ blockColours:0
 lighting:true
 dotsStyle:0
 dotNameScale:1.0
-compassOverWaypoints:false
+compassOverEverything:true
 showBiome:true
 showFlowers:true
 keepWaypointNames:false
 waypointsDistanceExp:0
 waypointsDistanceMin:0.0
-waypointTPCommand:/tp @s
+defaultWaypointTPCommandFormat:/tp @s {x} {y} {z}
+defaultWaypointTPCommandRotationFormat:/tp @s {x} {y} {z} {yaw} ~
 arrowScale:1.0
 arrowColour:7
 smoothDots:false
@@ -83,6 +84,7 @@ potionEffectPushBox:1
 minimapFrame:0
 minimapFrameColor:0
 compassColor:0
+northCompassColor:-1
 showDimensionName:false
 displayMultipleWaypointInfo:1
 entityRadar:true
@@ -90,6 +92,13 @@ adjustHeightForCarpetLikeBlocks:true
 autoConvertWaypointDistanceToKmThreshold:10000
 waypointDistancePrecision:1
 mainDotSize:2
+partialYTeleportation:true
+deleteReachedDeathpoints:true
+hideMinimapUnderScreen:true
+hideMinimapUnderF3:true
+manualCaveModeStartAuto:true
+manualCaveModeStart:-1
+chunkGridLineWidth:1
 seed:Realms_7ca9ad364f8d4a61915bdc2cba2cc4a6.9014564/dim%0_mw-2,1,2:-8993723640229201049
 interface:dummy:0:36:true:false:false:false
 interface:dummy:0:10000:true:false:false:false
